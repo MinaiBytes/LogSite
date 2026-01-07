@@ -1,0 +1,121 @@
+/* 全体の基本設定 */
+body {
+  margin: 0;
+  padding: 0;
+  background: #f7f7f7;
+  color: #222;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+               "Hiragino Sans", "游ゴシック体", YuGothic, "Meiryo", sans-serif;
+  line-height: 1.9;
+}
+
+/* 中央のコンテナ */
+.wrapper {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 16px;
+  background: #ffffff;
+  box-shadow: 0 0 8px rgba(0,0,0,0.04);
+}
+
+/* ヘッダー */
+header {
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+}
+
+.site-title {
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+.site-subtitle {
+  margin: 4px 0 0;
+  font-size: 0.95rem;
+  color: #666;
+}
+
+/* ナビゲーション */
+nav {
+  margin-top: 12px;
+}
+
+nav a {
+  display: inline-block;
+  margin-right: 14px;
+  font-size: 0.95rem;
+  color: #0066aa;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* 見出し */
+h1, h2, h3 {
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 1.4rem;
+  border-left: 4px solid #0066aa;
+  padding-left: 8px;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin-top: 1.8em;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 4px;
+}
+
+h3 {
+  font-size: 1.05rem;
+  margin-top: 1.2em;
+}
+
+/* 段落など */
+p {
+  margin: 0.7em 0;
+}
+
+ul {
+  padding-left: 1.4em;
+}
+
+/* 画像 */
+figure {
+  margin: 1.2em 0;
+}
+
+figure img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+figure figcaption {
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: 4px;
+}
+
+/* フッター */
+footer {
+  margin-top: 24px;
+  padding-top: 12px;
+  border-top: 1px solid #e0e0e0;
+  font-size: 0.85rem;
+  color: #777;
+}
+
+/* スマホ向け微調整 */
+@media (max-width: 600px) {
+  .wrapper {
+    padding: 12px;
+    box-shadow: none;
+  }
+}
